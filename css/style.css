@@ -1,0 +1,96 @@
+body {
+    background-color: #d0d9dd;
+}
+
+span {
+    text-align: center;
+    color: hsl(200, 75%, 46%);
+    font-size: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+a {
+    color: hsl(200, 75%, 46%);
+    text-decoration: none
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img {
+    max-width: 320px;
+}
+
+.main-info {
+    max-width: 250px;
+}
+
+.main-info a {
+    font-size: 20px;
+    color: #5abaeb
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form input {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 23px;
+    border: 2 px solid rgb(175, 171, 171);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+
+.form button {
+    background-color: hsl(200, 75%, 46%);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #1d93cd;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+
+.form button:hover {
+    background-color: white;
+    color: black
+}
+
+.pipi img {
+max-width: 550px;
+}
+
+.tell h3 {
+    text-align: left;
+}
+
+.pipi {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+     text-align: left;
+}
+
+.tell img {
+    max-width: 40px;
+
+}
+.blue {
+    font-size: 17px;
+    color: hsl(200, 75%, 46%);
+
+}
